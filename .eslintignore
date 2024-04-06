@@ -1,4 +1,5 @@
-dist
-coverage
-doc
+dist/*
+coverage/*
+doc/*
 webpack.*.js
+node_modules/*
