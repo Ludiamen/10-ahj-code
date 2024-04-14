@@ -41,6 +41,7 @@
     "webpack-merge": "^5.8.0"
   },
   "dependencies": {
-    "devserver": "^0.2.5"
+    "devserver": "^0.2.5",
+    "json-schema-to-ts": "2.6.2-beta.1"
   }
 }
