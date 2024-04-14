@@ -1,6 +1,5 @@
-export default [
-  // ...other config
-  {
+module.exports = {
+    // ...other config
     ignores: [
       "**/temp.js",
       "config/*",
@@ -9,5 +8,4 @@ export default [
       "doc/*",
       "webpack.*.js",
     ],
-  },
-];
+}
