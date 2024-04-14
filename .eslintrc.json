@@ -19,6 +19,14 @@
       "extends": ["plugin:jest/recommended"],
       "rules": { "jest/prefer-expect-assertions": "off" }
     }
+  ],
+  "ignores": [
+    "**/temp.js", 
+    "config/*", 
+    "dist/*",
+    "coverage/*",
+    "doc/*",
+    "webpack.*.js",
+    "node_modules/*"
   ]
-
 }
